@@ -1,0 +1,137 @@
+%%%
+% Dokumentenshell f"ur den Bericht: AK Minimalstandards in der Lehre.
+% FritzTeX! Hier werden/wurden Ergebnisse der verschiedenen Teilnehmer
+% des Aks Minimalstandards verwurstet. Der Ak wurde zweimal vom Fritz
+% geleitet; das Material stammt lat"urnich von den Teilnehmern.
+%
+% $Id: shell.tex,v 1.12 2008/05/05 17:18:38 brainbug Exp $
+%%%
+%\documentclass[10pt,oneside,a5paper,pdftex]{article}
+\documentclass[10pt,twoside,a5paper,pdftex]{article}
+%% Pakete
+\usepackage{ngerman}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage[usenames]{color}
+\usepackage{version}
+%\usepackage[colorlinks,linkcolor=blue]{hyperref} % option colorlinks fuer farbige Links
+\usepackage[colorlinks,linkcolor=black]{hyperref} % option colorlinks fuer farbige Links
+%% Standard:
+\tolerance=20000
+\setlength{\emergencystretch}{20pt}
+\setcounter{secnumdepth}{-1}
+%% Mehr Platz:
+\setlength{\hoffset}{-.5in}                                                     
+\setlength{\voffset}{-1in}                                                      
+\addtolength{\textheight}{2in}                                                  
+\addtolength{\textwidth}{1in}                                                   
+%% "Deutsches" Satzbild:
+\setlength{\parskip}{0ex}
+\setlength{\parindent}{0ex}
+%% Definitionen:
+
+\definecolor{grau}{gray}{.6}
+
+\excludeversion{kcmt}
+\excludeversion{stilltodo}
+\excludeversion{kcmt62}
+\excludeversion{kcmt6XX}
+\includeversion{kcmt}
+\includeversion{stilltodo}
+
+\renewcommand{\normalsize}{\small}
+
+\newenvironment{komacmt}{%
+\marginpar{\framebox{!}}%
+\begin{center}\begin{minipage}{.85\textwidth}\normalfont \mdseries \sffamily \small \color{grau} }{\end{minipage}\end{center}}
+
+\begin{kcmt62}%
+\newenvironment{komacmt62}{%
+\marginpar{\framebox{62}} %
+\begin{center}\begin{minipage}{.8\textwidth}\normalfont \mdseries \sffamily \small \color{grau} }{\end{minipage}\end{center} %
+}
+\end{kcmt62} %
+
+\newcounter{messgroesse}
+\newcommand{\messgroesse}{\addtocounter{messgroesse}{1}$x_{\Roman{messgroesse}}$}
+
+%% Titel
+\title{Minimalstandards in der Lehre}
+\author{Arbeitskreis "`Minimalstandards"' der KoMata \\
+Bielefeld (WS 06/07), \\
+Karlsruhe (SS 07),  \\
+Regensburg (WS 07/08), \\
+Chemnitz (SS 08), \\
+Paderborn (WS 08/09),\\
+Graz (WS 09/10)}
+\date{\today}
+%% Und los geht's.
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\begin{center}
+	Minimalanforderungen an gute Lehre der Mathematik
+	an Hochschulen im deutschsprachigen Raum,\\
+	 vertreten und
+	erarbeitet durch die Konferenz der deutschsprachigen Mathematikfachschaften (KoMa)
+\end{center}
+\end{abstract}
+
+
+\tableofcontents
+
+\setlength{\parskip}{1.5ex}
+
+\begin{kcmt62}
+\begin{komacmt62}
+Ein paar allgemeine Anmerkungen vom AK-Leiter (Fritz, Fh-Regensburg):
+\begin{itemize}
+\item der Arbeitskreis trifft sich inzwischen mindestens zum vierten Mal; einige
+ Mitglieder sind seit den guten alten Zeiten mit dabei und haben inzwischen ein
+ relativ gutes Gesp"ur daf"ur entwickelt, was konsensf"ahig sein k"onnte. Diese
+ haben sich auch auf dem Ak gemeldet, und k"onnen als Ansprechpartner f"ur die
+ "`Hausaufgaben"' fungieren.
+\item Der Inhalt dieses Papiers so wie es bisher existiert, findet eine breite
+ Unterst"utzung.
+\item Es gibt so ein paar "`Kreisdreher"' -- mal kommt eine Formulierung rein, mal
+ wieder raus, alles in allem jedoch immer unter verschiedenen Gesichtspunkten,
+ also nein, wir drehen uns nicht nur im Kreis.
+\item Wir haben uns entschlossen, dieses Mal alle Zahlen fl"oten gehen zu lassen.
+ Einerseits sind zwar konkrete Zahlen w"unschenswert, andererseits beinhalten sie
+ auch ein massives Problemfeld, einerseits das der Messbarkeit allgemein, andererseits
+ auch der Umgang, der mit diesen Zahlen zu erwarten ist. Beispielsweise die Rechner
+ pro Studierenden -- wir forderten mindestens 25 Rechner, ab 250 Studierenden in
+ der Fakult"at aber 10:1 Studierende:Rechner. Was nun wenn 260 Studierende in einer
+ Fakult"at sind, aber nur 25 Rechner vorhanden ? Ist dies schlecht? Dies kommt darauf
+ an, ob die angegeben Zahl die \emph{absolute Schmerzgrenze} ist oder eine Empfehlung
+ die eine gewisse Abweichung toleriert. Insgesamt ist es jedoch massiv schwer konkrete
+ Zahlen zu erarbeiten, und man macht sich und die gesamte Arbeit des Arbeitskreises
+ relativ leicht angreifbar. Dies gilt es zu vermeiden. Stattdessen hat sich dieser
+ Arbeitskreis (KoMa62) dazu entschieden alle z"ahlbaren Forderungen variabel zu
+ definieren, und in einer Dokumentation der Minimalstandards verschiedene Richtwerte
+ zu erw"ahnen, zusammen mit einer Wertung der konkreten Zahlen. So kann man sich
+ selbst einsch"atzen wo man auf der Skala liegt.
+\end{itemize}
+\end{komacmt62}
+\end{kcmt62}
+
+\newpage
+\input{praeambel}
+
+\newpage
+\input{stpo}
+
+\input{formen}
+
+\newpage
+\input{infrastruktur}
+
+\newpage
+\input{service}
+
+\newpage
+\input{checklist}
+
+\end{document}
