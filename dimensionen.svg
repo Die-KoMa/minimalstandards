@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="463.01962"
+   height="365.87311"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="minsanity.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="StopL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopL"
+       style="overflow:visible">
+      <path
+         id="path3361"
+         d="M 0,5.65 L 0,-5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lstart"
+       style="overflow:visible">
+      <path
+         id="path3209"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="matrix(1.1,0,0,1.1,1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         id="path3212"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.63"
+     inkscape:cx="355.34245"
+     inkscape:cy="145.38982"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1400"
+     inkscape:window-height="990"
+     inkscape:window-x="-5"
+     inkscape:window-y="-3">
+    <sodipodi:guide
+       orientation="0,1"
+       position="493.00699,592.30769"
+       id="guide2412" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="293.35664,687.76224"
+       id="guide4653" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-156.66051,-240.47411)">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);marker-end:url(#Arrow2Lend);stroke-opacity:1"
+       d="M 314.08451,255.17908 L 314.08451,473.48894 L 528.16901,473.48894"
+       id="path2383"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1"
+       d="M 314.08451,473.47909 L 185.21127,602.35233"
+       id="path2385"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#ffffff;fill-opacity:0.66972477;stroke:#04ff14;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2395"
+       sodipodi:cx="229.54546"
+       sodipodi:cy="451.48807"
+       sodipodi:rx="12.412587"
+       sodipodi:ry="12.412587"
+       d="M 241.95804,451.48807 A 12.412587,12.412587 0 1 1 217.13287,451.48807 A 12.412587,12.412587 0 1 1 241.95804,451.48807 z"
+       transform="translate(85.314685,21.678312)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="text2397"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998"><textPath
+         xlink:href="#path2395"
+         id="textPath2403"
+         style="font-size:9px">Erstes Semester</textPath></text>
+    <g
+       id="g4510"
+       transform="translate(-12.237762,-5.347263)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998">
+      <path
+         transform="matrix(0.9963603,-8.5241168e-2,8.5241168e-2,0.9963603,156.64261,47.491101)"
+         d="M 241.95804,451.48807 A 12.412587,12.412587 0 1 1 217.13287,451.48807 A 12.412587,12.412587 0 1 1 241.95804,451.48807 z"
+         sodipodi:ry="12.412587"
+         sodipodi:rx="12.412587"
+         sodipodi:cy="451.48807"
+         sodipodi:cx="229.54546"
+         id="path2414"
+         style="fill:#ffffff;fill-opacity:0.66972477;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         transform="matrix(-0.9247495,0.3805761,-0.3805761,-0.9247495,997.13703,757.34381)"
+         id="text4493"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><textPath
+           style="font-size:10px"
+           id="textPath4497"
+           xlink:href="#path2414">Analysis 2</textPath></text>
+      <path
+         transform="matrix(1.6785714,0,0,2.8125,-261.56344,-976.20027)"
+         d="M 413.28671,516.69788 A 4.8951049,2.7972028 0 1 1 403.4965,516.69788 A 4.8951049,2.7972028 0 1 1 413.28671,516.69788 z"
+         sodipodi:ry="2.7972028"
+         sodipodi:rx="4.8951049"
+         sodipodi:cy="516.69788"
+         sodipodi:cx="408.3916"
+         id="path4505"
+         style="opacity:1;fill:#fdcc0c;fill-opacity:0.81651378;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g4516"
+       transform="translate(-67.033303,-5.347263)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998">
+      <path
+         transform="matrix(0.9963603,-8.5241168e-2,8.5241168e-2,0.9963603,156.64261,47.491101)"
+         d="M 241.95804,451.48807 A 12.412587,12.412587 0 1 1 217.13287,451.48807 A 12.412587,12.412587 0 1 1 241.95804,451.48807 z"
+         sodipodi:ry="12.412587"
+         sodipodi:rx="12.412587"
+         sodipodi:cy="451.48807"
+         sodipodi:cx="229.54546"
+         id="path4518"
+         style="fill:#ffffff;fill-opacity:0.66972477;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         transform="matrix(-0.9247495,0.3805761,-0.3805761,-0.9247495,997.13703,757.34381)"
+         id="text4520"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><textPath
+           style="font-size:10px"
+           id="textPath4522"
+           xlink:href="#path2414">Analysis 1</textPath></text>
+      <path
+         transform="matrix(1.6785714,0,0,2.8125,-261.56344,-976.20027)"
+         d="M 413.28671,516.69788 A 4.8951049,2.7972028 0 1 1 403.4965,516.69788 A 4.8951049,2.7972028 0 1 1 413.28671,516.69788 z"
+         sodipodi:ry="2.7972028"
+         sodipodi:rx="4.8951049"
+         sodipodi:cy="516.69788"
+         sodipodi:cx="408.3916"
+         id="path4524"
+         style="opacity:1;fill:#fdcc0c;fill-opacity:0.81651378;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g4526"
+       transform="translate(66.88278,-5.347263)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998">
+      <path
+         transform="matrix(0.9963603,-8.5241168e-2,8.5241168e-2,0.9963603,156.64261,47.491101)"
+         d="M 241.95804,451.48807 A 12.412587,12.412587 0 1 1 217.13287,451.48807 A 12.412587,12.412587 0 1 1 241.95804,451.48807 z"
+         sodipodi:ry="12.412587"
+         sodipodi:rx="12.412587"
+         sodipodi:cy="451.48807"
+         sodipodi:cx="229.54546"
+         id="path4528"
+         style="fill:#ffffff;fill-opacity:0.66972477;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         transform="matrix(-0.9247495,0.3805761,-0.3805761,-0.9247495,997.13703,757.34381)"
+         id="text4530"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><textPath
+           style="font-size:8px"
+           id="textPath4532"
+           xlink:href="#path2414">Funktionentheorie</textPath></text>
+      <path
+         transform="matrix(1.6785714,0,0,2.8125,-261.56344,-976.20027)"
+         d="M 413.28671,516.69788 A 4.8951049,2.7972028 0 1 1 403.4965,516.69788 A 4.8951049,2.7972028 0 1 1 413.28671,516.69788 z"
+         sodipodi:ry="2.7972028"
+         sodipodi:rx="4.8951049"
+         sodipodi:cy="516.69788"
+         sodipodi:cx="408.3916"
+         id="path4534"
+         style="opacity:1;fill:#fdcc0c;fill-opacity:0.81651378;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g4633"
+       transform="translate(-110.28632,-46.939034)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998">
+      <path
+         transform="matrix(0.9963603,-8.5241168e-2,8.5241168e-2,0.9963603,156.64261,47.491101)"
+         d="M 241.95804,451.48807 A 12.412587,12.412587 0 1 1 217.13287,451.48807 A 12.412587,12.412587 0 1 1 241.95804,451.48807 z"
+         sodipodi:ry="12.412587"
+         sodipodi:rx="12.412587"
+         sodipodi:cy="451.48807"
+         sodipodi:cx="229.54546"
+         id="path4635"
+         style="fill:#ffffff;fill-opacity:0.66972477;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         transform="matrix(-0.9247495,0.3805761,-0.3805761,-0.9247495,997.13703,757.34381)"
+         id="text4637"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><textPath
+           style="font-size:8px"
+           id="textPath4639"
+           xlink:href="#path2414">Lineare Algebra 1</textPath></text>
+      <path
+         transform="matrix(1.6785714,0,0,2.8125,-261.56344,-976.20027)"
+         d="M 413.28671,516.69788 A 4.8951049,2.7972028 0 1 1 403.4965,516.69788 A 4.8951049,2.7972028 0 1 1 413.28671,516.69788 z"
+         sodipodi:ry="2.7972028"
+         sodipodi:rx="4.8951049"
+         sodipodi:cy="516.69788"
+         sodipodi:cx="408.3916"
+         id="path4641"
+         style="opacity:1;fill:#fdcc0c;fill-opacity:0.81651378;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g4643"
+       transform="translate(-110.63597,-89.596374)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998">
+      <path
+         transform="matrix(0.9963603,-8.5241168e-2,8.5241168e-2,0.9963603,156.64261,47.491101)"
+         d="M 241.95804,451.48807 A 12.412587,12.412587 0 1 1 217.13287,451.48807 A 12.412587,12.412587 0 1 1 241.95804,451.48807 z"
+         sodipodi:ry="12.412587"
+         sodipodi:rx="12.412587"
+         sodipodi:cy="451.48807"
+         sodipodi:cx="229.54546"
+         id="path4645"
+         style="fill:#ffffff;fill-opacity:0.66972477;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         transform="matrix(-0.9247495,0.3805761,-0.3805761,-0.9247495,997.13703,757.34381)"
+         id="text4647"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><textPath
+           style="font-size:8px"
+           id="textPath4649"
+           xlink:href="#path2414">Lineare Algebra 2</textPath></text>
+      <path
+         transform="matrix(1.6785714,0,0,2.8125,-261.56344,-976.20027)"
+         d="M 413.28671,516.69788 A 4.8951049,2.7972028 0 1 1 403.4965,516.69788 A 4.8951049,2.7972028 0 1 1 413.28671,516.69788 z"
+         sodipodi:ry="2.7972028"
+         sodipodi:rx="4.8951049"
+         sodipodi:cy="516.69788"
+         sodipodi:cx="408.3916"
+         id="path4651"
+         style="opacity:1;fill:#fdcc0c;fill-opacity:0.81651378;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g4655"
+       transform="translate(-109.93667,-135.05092)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998">
+      <path
+         transform="matrix(0.9963603,-8.5241168e-2,8.5241168e-2,0.9963603,156.64261,47.491101)"
+         d="M 241.95804,451.48807 A 12.412587,12.412587 0 1 1 217.13287,451.48807 A 12.412587,12.412587 0 1 1 241.95804,451.48807 z"
+         sodipodi:ry="12.412587"
+         sodipodi:rx="12.412587"
+         sodipodi:cy="451.48807"
+         sodipodi:cx="229.54546"
+         id="path4657"
+         style="fill:#ffffff;fill-opacity:0.66972477;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         transform="matrix(-0.9247495,0.3805761,-0.3805761,-0.9247495,997.13703,757.34381)"
+         id="text4659"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><textPath
+           style="font-size:9px"
+           id="textPath4661"
+           xlink:href="#path2414">Gruppentheorie</textPath></text>
+      <path
+         transform="matrix(1.6785714,0,0,2.8125,-261.56344,-976.20027)"
+         d="M 413.28671,516.69788 A 4.8951049,2.7972028 0 1 1 403.4965,516.69788 A 4.8951049,2.7972028 0 1 1 413.28671,516.69788 z"
+         sodipodi:ry="2.7972028"
+         sodipodi:rx="4.8951049"
+         sodipodi:cy="516.69788"
+         sodipodi:cx="408.3916"
+         id="path4663"
+         style="opacity:1;fill:#fdcc0c;fill-opacity:0.81651378;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g4665"
+       transform="matrix(0.8608172,0.5089143,-0.5089143,0.8608172,112.79382,-73.880383)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998">
+      <path
+         transform="matrix(0.9963603,-8.5241168e-2,8.5241168e-2,0.9963603,156.64261,47.491101)"
+         d="M 241.95804,451.48807 A 12.412587,12.412587 0 1 1 217.13287,451.48807 A 12.412587,12.412587 0 1 1 241.95804,451.48807 z"
+         sodipodi:ry="12.412587"
+         sodipodi:rx="12.412587"
+         sodipodi:cy="451.48807"
+         sodipodi:cx="229.54546"
+         id="path4667"
+         style="fill:#ffffff;fill-opacity:0.66972477;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         transform="matrix(-0.9247495,0.3805761,-0.3805761,-0.9247495,997.13703,757.34381)"
+         id="text4669"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><textPath
+           style="font-size:10px"
+           id="textPath4671"
+           xlink:href="#path2414">Numerik</textPath></text>
+      <path
+         transform="matrix(1.6785714,0,0,2.8125,-261.56344,-976.20027)"
+         d="M 413.28671,516.69788 A 4.8951049,2.7972028 0 1 1 403.4965,516.69788 A 4.8951049,2.7972028 0 1 1 413.28671,516.69788 z"
+         sodipodi:ry="2.7972028"
+         sodipodi:rx="4.8951049"
+         sodipodi:cy="516.69788"
+         sodipodi:cx="408.3916"
+         id="path4673"
+         style="opacity:1;fill:#fdcc0c;fill-opacity:0.81651378;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4675"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       transform="matrix(0,-1,1,0,-131.95591,765.77099)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998"><flowRegion
+         id="flowRegion4677"><rect
+           id="rect4679"
+           width="114.01869"
+           height="24.299065"
+           x="456.07477"
+           y="422.45563"
+           style="fill:#000080" /></flowRegion><flowPara
+         id="flowPara4681">Algebarisch</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4683"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       transform="translate(57.871568,23.128659)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998"><flowRegion
+         id="flowRegion4685"><rect
+           id="rect4687"
+           width="114.01869"
+           height="24.299065"
+           x="456.07477"
+           y="422.45563"
+           style="fill:#000080" /></flowRegion><flowPara
+         id="flowPara4689">Analytisch</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4691"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       transform="matrix(0.7071068,-0.7071068,0.7071068,0.7071068,-467.65959,622.47669)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998"><flowRegion
+         id="flowRegion4693"><rect
+           id="rect4695"
+           width="114.01869"
+           height="24.299065"
+           x="456.07477"
+           y="422.45563"
+           style="fill:#000080" /></flowRegion><flowPara
+         id="flowPara4697">Numerisch</flowPara></flowRoot>    <rect
+       style="opacity:1;fill:none;fill-opacity:0.81651378;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:16, 16;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5220"
+       width="185.04672"
+       height="130.84113"
+       x="433.63342"
+       y="274.29898"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5222"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       transform="translate(43.913766,23.805971)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998"><flowRegion
+         id="flowRegion5224"><rect
+           id="rect5226"
+           width="137.38318"
+           height="42.990654"
+           x="397.19626"
+           y="256.10049" /></flowRegion><flowPara
+         id="flowPara5228"
+         style="font-size:22px">Legende</flowPara></flowRoot>    <g
+       id="g5230"
+       transform="matrix(0.9625425,-0.2711308,0.2711308,0.9625425,-60.08649,-2.9531689)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998">
+      <path
+         transform="matrix(0.9963603,-8.5241168e-2,8.5241168e-2,0.9963603,156.64261,47.491101)"
+         d="M 241.95804,451.48807 A 12.412587,12.412587 0 1 1 217.13287,451.48807 A 12.412587,12.412587 0 1 1 241.95804,451.48807 z"
+         sodipodi:ry="12.412587"
+         sodipodi:rx="12.412587"
+         sodipodi:cy="451.48807"
+         sodipodi:cx="229.54546"
+         id="path5232"
+         style="fill:#ffffff;fill-opacity:0.66972477;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         transform="matrix(-0.9247495,0.3805761,-0.3805761,-0.9247495,997.13703,757.34381)"
+         id="text5234"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><textPath
+           style="font-size:10px"
+           id="textPath5236"
+           xlink:href="#path2414">Vorlesung A</textPath></text>
+      <path
+         transform="matrix(1.6785714,0,0,2.8125,-261.56344,-976.20027)"
+         d="M 413.28671,516.69788 A 4.8951049,2.7972028 0 1 1 403.4965,516.69788 A 4.8951049,2.7972028 0 1 1 413.28671,516.69788 z"
+         sodipodi:ry="2.7972028"
+         sodipodi:rx="4.8951049"
+         sodipodi:cy="516.69788"
+         sodipodi:cx="408.3916"
+         id="path5238"
+         style="opacity:1;fill:#fdcc0c;fill-opacity:0.81651378;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g5240"
+       transform="matrix(0.9606539,-0.2777482,0.2777482,0.9606539,29.1458,-1.4780189)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998">
+      <path
+         transform="matrix(0.9963603,-8.5241168e-2,8.5241168e-2,0.9963603,156.64261,47.491101)"
+         d="M 241.95804,451.48807 A 12.412587,12.412587 0 1 1 217.13287,451.48807 A 12.412587,12.412587 0 1 1 241.95804,451.48807 z"
+         sodipodi:ry="12.412587"
+         sodipodi:rx="12.412587"
+         sodipodi:cy="451.48807"
+         sodipodi:cx="229.54546"
+         id="path5242"
+         style="fill:#ffffff;fill-opacity:0.66972477;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         transform="matrix(-0.9247495,0.3805761,-0.3805761,-0.9247495,997.13703,757.34381)"
+         id="text5244"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><textPath
+           style="font-size:10px"
+           id="textPath5246"
+           xlink:href="#path2414">Vorlesung B</textPath></text>
+      <path
+         transform="matrix(1.6785714,0,0,2.8125,-261.56344,-976.20027)"
+         d="M 413.28671,516.69788 A 4.8951049,2.7972028 0 1 1 403.4965,516.69788 A 4.8951049,2.7972028 0 1 1 413.28671,516.69788 z"
+         sodipodi:ry="2.7972028"
+         sodipodi:rx="4.8951049"
+         sodipodi:cy="516.69788"
+         sodipodi:cx="408.3916"
+         id="path5248"
+         style="opacity:1;fill:#fdcc0c;fill-opacity:0.81651378;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <path
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#StopL);marker-end:url(#StopL);stroke-opacity:1"
+       d="M 476.62405,366.82236 L 569.14741,366.82236"
+       id="path5250"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6308"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       transform="translate(58.867037,18.198501)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998"><flowRegion
+         id="flowRegion6310"><rect
+           id="rect6312"
+           width="83.177567"
+           height="15.887851"
+           x="437.38318"
+           y="347.6893" /></flowRegion><flowPara
+         id="flowPara6314">Abstand</flowPara></flowRoot>    <g
+       id="g2469"
+       transform="translate(-38.342018,-105.20249)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998">
+      <path
+         transform="matrix(0.9963603,-8.5241168e-2,8.5241168e-2,0.9963603,156.64261,47.491101)"
+         d="M 241.95804,451.48807 A 12.412587,12.412587 0 1 1 217.13287,451.48807 A 12.412587,12.412587 0 1 1 241.95804,451.48807 z"
+         sodipodi:ry="12.412587"
+         sodipodi:rx="12.412587"
+         sodipodi:cy="451.48807"
+         sodipodi:cx="229.54546"
+         id="path2471"
+         style="fill:#ffffff;fill-opacity:0.66972477;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         transform="matrix(-0.9247495,0.3805761,-0.3805761,-0.9247495,997.13703,757.34381)"
+         id="text2473"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><textPath
+           style="font-size:8px"
+           id="textPath2475"
+           xlink:href="#path2414">Zahlentheorie</textPath></text>
+      <path
+         transform="matrix(1.6785714,0,0,2.8125,-261.56344,-976.20027)"
+         d="M 413.28671,516.69788 A 4.8951049,2.7972028 0 1 1 403.4965,516.69788 A 4.8951049,2.7972028 0 1 1 413.28671,516.69788 z"
+         sodipodi:ry="2.7972028"
+         sodipodi:rx="4.8951049"
+         sodipodi:cy="516.69788"
+         sodipodi:cx="408.3916"
+         id="path2477"
+         style="opacity:1;fill:#fdcc0c;fill-opacity:0.81651378;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+  </g>
+</svg>
