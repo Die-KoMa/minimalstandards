@@ -6,29 +6,47 @@
 %
 % $Id: shell.tex,v 1.12 2008/05/05 17:18:38 brainbug Exp $
 %%%
-%\documentclass[10pt,oneside,a5paper,pdftex]{article}
-\documentclass[10pt,twoside,a5paper,pdftex]{article}
-%% Pakete
+\documentclass[10pt,twoside,a5paper,openright]{book}
+\usepackage[utf8]{inputenc}
 \usepackage{ngerman}
-\usepackage{fancyhdr}
-\usepackage{graphicx}
-\usepackage[usenames]{color}
+\usepackage{url}
+\usepackage{fancyhdr}                % Leck're headers
 \usepackage{version}
-%\usepackage[colorlinks,linkcolor=blue]{hyperref} % option colorlinks fuer farbige Links
-\usepackage[colorlinks,linkcolor=black]{hyperref} % option colorlinks fuer farbige Links
-%% Standard:
-\tolerance=20000
-\setlength{\emergencystretch}{20pt}
-\setcounter{secnumdepth}{-1}
-%% Mehr Platz:
-\setlength{\hoffset}{-.5in}                                                     
-\setlength{\voffset}{-1in}                                                      
-\addtolength{\textheight}{2in}                                                  
-\addtolength{\textwidth}{1in}                                                   
-%% "Deutsches" Satzbild:
-\setlength{\parskip}{0ex}
-\setlength{\parindent}{0ex}
-%% Definitionen:
+\usepackage{fullpagegraphic}
+\usepackage{latexsym}                % symbole!!
+\usepackage{amsmath}                 % Mehr mathematische Befehle...
+\usepackage{amssymb}                 % ... und Symbole
+\usepackage[final,pdftex,colorlinks,urlcolor=blue]{hyperref}		% setzt Links und Verweise im PDF-Dokument
+\usepackage{graphicx}               % zum Einf"ugen von eps-Bildern etc.
+\usepackage{wasysym}
+\usepackage{color,colortbl,titlesec, array}
+% Fot Watermark
+% \usepackage{draftwatermark}
+% \SetWatermarkScale{2}
+% \SetWatermarkText{\sf Nach Bremen}
+
+\setlength{\hoffset}{-.5in}
+\setlength{\voffset}{-1in}
+%\addtolength{\textheight}{1.9in}
+%\addtolength{\textwidth}{0.9in}
+\setlength{\textheight}{15.5cm}
+\setlength{\textwidth}{11.5cm}
+\setlength{\oddsidemargin}{0.3cm}
+% \setlength{\evensidemargin}{.2cm}
+\setlength{\topmargin}{1.3cm}
+\setlength{\footskip}{1.3cm}
+
+%%% KOPF & FUSSZEILEN
+\pagestyle{fancy}
+\fancyhead{} % Aufraeumen
+\fancyhead[ER]{\scshape \footnotesize \leftmark}
+\fancyhead[OL]{\scshape \footnotesize \rightmark}
+\fancyhead[EL,OR]{\thepage}
+\fancyfoot{} % Aufraeumen
+\fancyfoot[EL]{\scshape \footnotesize KoMa-Handbuch}
+%\fancyfoot[EC,OC]{\scshape \footnotesize FH Regensburg}
+\fancyfoot[OR]{\scshape \footnotesize Berufungskommissionen}
+
 
 \definecolor{grau}{gray}{.6}
 
@@ -55,32 +73,83 @@
 \newcounter{messgroesse}
 \newcommand{\messgroesse}{\addtocounter{messgroesse}{1}$x_{\Roman{messgroesse}}$}
 
-%% Titel
-\title{Minimalstandards in der Lehre}
-\author{Arbeitskreis "`Minimalstandards"' der KoMata \\
-Bielefeld (WS 06/07), \\
-Karlsruhe (SS 07),  \\
-Regensburg (WS 07/08), \\
-Chemnitz (SS 08), \\
-Paderborn (WS 08/09),\\
-Graz (WS 09/10)}
-\date{\today}
-%% Und los geht's.
+
 \begin{document}
+% aussen Umschlag
+\frontmatter
+\includegraphicsfullpage{titelseite}
+\newpage
+% leere Seite
+\thispagestyle{empty}~
+\newpage
 
-\maketitle
+%%% Schmutzumschlag
 
-\begin{abstract}
+\begin{titlepage}
+\begin{flushright}\sffamily
+	\vspace*{1cm}
+	{\Huge{Handbuch}}\\
+	\vspace{2.0cm}
+	{\large zu}\bigskip\par
+	{\huge{Minimalstandards in der Lehre}} \\
+	\vspace{2ex}
+	\vfill
+	{\large{Arbeitskreis Minimalstandards}\smallskip \\ 
+	{\large{der Konferenz der deutschsprachigen Mathematikfachschaften}}\\
+	\vspace{1cm}
+	erarbeitet auf den Konferenzen}\smallskip\\	
+	{\small
+	Bielefeld (WS 06/07), \\
+	Karlsruhe (SS 07),  \\
+	Regensburg (WS 07/08), \\
+	Chemnitz (SS 08), \\
+	Paderborn (WS 08/09),\\
+	Graz (WS 09/10)
+	}\\
+	\vspace{3cm}
+	{\Large Wintersemester 2009/10}\\
+	\vspace{14ex}
+\end{flushright}
+\end{titlepage}
+
+
+%%% IMPRESSUM
+\newpage
+\vspace*{5cm}
+
 \begin{center}
 	Minimalanforderungen an gute Lehre der Mathematik
 	an Hochschulen im deutschsprachigen Raum,\\
-	 vertreten und
-	erarbeitet durch die Konferenz der deutschsprachigen Mathematikfachschaften (KoMa)
+	vertreten und erarbeitet durch die Konferenz der deutschsprachigen Mathematikfachschaften (KoMa)
 \end{center}
-\end{abstract}
+
+\vfill
+\subsection*{Impressum}
+
+\begin{table}[h]
+\footnotesize
+%	\begin{center}
+		\begin{tabular}{ll}
+		Herausgeber:				& KoMa-B"uro \\
+									& c/o Fachschaftsrat Mathematik \\
+									& an der TU Chemnitz \\
+									& \texttt{www.die-koma.org} \\
+		Erschienen:					& September 2009 \\
+		Auflage:					& 1.~Auflage (XXX Stück) \\
+		Redaktion:					& XXX \\
+									& Arbeitskreis "`Minimalstandards"'\\ 
+		Redaktionsschluss:			& \today \\
+		Druck:						& XXX \\
+												& \\
+		Copyright:					& Das Copyright f"ur alle Texte liegt bei den jeweiligen Autoren. \\
+		\end{tabular}
+%	\end{center}
+\end{table}
+
+\newpage
+\tableofcontents\thispagestyle{fancy}
 
 
-\tableofcontents
 
 \setlength{\parskip}{1.5ex}
 
@@ -116,6 +185,8 @@ Ein paar allgemeine Anmerkungen vom AK-Leiter (Fritz, Fh-Regensburg):
 \end{itemize}
 \end{komacmt62}
 \end{kcmt62}
+
+\mainmatter
 
 \newpage
 \input{praeambel}

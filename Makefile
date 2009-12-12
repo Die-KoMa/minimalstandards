@@ -3,8 +3,8 @@
 # Makefile f"ur den Arbeitskreis (KOMA) Minimalstandards in der Lehre.
 # $Id: Makefile,v 1.3 2008/03/23 19:04:52 brainbug Exp $
 ###############################################################################
-QUELLEN=shell.tex praeambel.tex stpo.tex formen.tex infrastruktur.tex service.tex\
-	phasen.png dims.png
+QUELLEN=minimalstandards.tex praeambel.tex stpo.tex formen.tex infrastruktur.tex service.tex\
+	phasen.pdf dimensionen.pdf
 
 .SUFFIXES:	.obj .png
 
@@ -14,12 +14,14 @@ QUELLEN=shell.tex praeambel.tex stpo.tex formen.tex infrastruktur.tex service.te
 
 all:	minsanity
 
+dokumentiert: minsanity
+
 minsanity:	out/koma-minsanity.pdf
 
 out/koma-minsanity.pdf:	$(QUELLEN)
-	@pdflatex -output-directory out -jobname koma-minsanity shell	&& \
-	pdflatex -output-directory out  -jobname koma-minsanity shell	> /dev/null 2>&1	&& printf "\n..Zweiter Durchlauf ok\n" && \
-	pdflatex -output-directory out  -jobname koma-minsanity shell	> /dev/null 2>&1	&& printf "\n..Dritter Durchlauf ok.\n\n"
+	@pdflatex -output-directory out -jobname koma-minsanity minimalstandards	&& \
+	pdflatex -output-directory out  -jobname koma-minsanity minimalstandards	> /dev/null 2>&1	&& printf "\n..Zweiter Durchlauf ok\n" && \
+	pdflatex -output-directory out  -jobname koma-minsanity minimalstandards	> /dev/null 2>&1	&& printf "\n..Dritter Durchlauf ok.\n\n"
 
 clean:
 	@rm -f out/*.aux
