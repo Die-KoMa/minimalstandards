@@ -54,8 +54,8 @@
 \excludeversion{stilltodo}
 \excludeversion{kcmt62}
 \excludeversion{kcmt6XX}
-\includeversion{kcmt}
-\includeversion{stilltodo}
+% \includeversion{kcmt}
+% \includeversion{stilltodo}
 
 \renewcommand{\normalsize}{\small}
 
@@ -75,80 +75,15 @@
 
 
 \begin{document}
-% aussen Umschlag
-\frontmatter
-\includegraphicsfullpage{titelseite}
-\newpage
-% leere Seite
-\thispagestyle{empty}~
-\newpage
+% Farbiger Titel plus Schmutztitel
+\input{titelseiten}
 
-%%% Schmutzumschlag
+%Impressum
+\input{impressum}
 
-\begin{titlepage}
-\begin{flushright}\sffamily
-	\vspace*{1cm}
-	{\Huge{Handbuch}}\\
-	\vspace{2.0cm}
-	{\large zu}\bigskip\par
-	{\huge{Minimalstandards in der Lehre}} \\
-	\vspace{2ex}
-	\vfill
-	{\large{Arbeitskreis Minimalstandards}\smallskip \\ 
-	{\large{der Konferenz der deutschsprachigen Mathematikfachschaften}}\\
-	\vspace{1cm}
-	erarbeitet auf den Konferenzen}\smallskip\\	
-	{\small
-	Bielefeld (WS 06/07), \\
-	Karlsruhe (SS 07),  \\
-	Regensburg (WS 07/08), \\
-	Chemnitz (SS 08), \\
-	Paderborn (WS 08/09),\\
-	Graz (WS 09/10)
-	}\\
-	\vspace{3cm}
-	{\Large Wintersemester 2009/10}\\
-	\vspace{14ex}
-\end{flushright}
-\end{titlepage}
-
-
-%%% IMPRESSUM
-\newpage
-\vspace*{5cm}
-
-\begin{center}
-	Minimalanforderungen an gute Lehre der Mathematik
-	an Hochschulen im deutschsprachigen Raum,\\
-	vertreten und erarbeitet durch die Konferenz der deutschsprachigen Mathematikfachschaften (KoMa)
-\end{center}
-
-\vfill
-\subsection*{Impressum}
-
-\begin{table}[h]
-\footnotesize
-%	\begin{center}
-		\begin{tabular}{ll}
-		Herausgeber:				& KoMa-B"uro \\
-									& c/o Fachschaftsrat Mathematik \\
-									& an der TU Chemnitz \\
-									& \texttt{www.die-koma.org} \\
-		Erschienen:					& September 2009 \\
-		Auflage:					& 1.~Auflage (XXX Stück) \\
-		Redaktion:					& XXX \\
-									& Arbeitskreis "`Minimalstandards"'\\ 
-		Redaktionsschluss:			& \today \\
-		Druck:						& XXX \\
-												& \\
-		Copyright:					& Das Copyright f"ur alle Texte liegt bei den jeweiligen Autoren. \\
-		\end{tabular}
-%	\end{center}
-\end{table}
-
+% Inhaltsverzeichnis
 \newpage
 \tableofcontents\thispagestyle{fancy}
-
 
 
 \setlength{\parskip}{1.5ex}
@@ -190,19 +125,17 @@ Ein paar allgemeine Anmerkungen vom AK-Leiter (Fritz, Fh-Regensburg):
 
 \newpage
 \input{praeambel}
-
-\newpage
-\input{stpo}
-
+\input{veranstaltungsangebot}
 \input{formen}
-
-\newpage
 \input{infrastruktur}
-
-\newpage
 \input{service}
 
 \newpage
-\input{checklist}
+\thispagestyle{empty}
+~
+\vfill
+\begin{center}
+\url{www.die-koma.org}
+\end{center}
 
 \end{document}
