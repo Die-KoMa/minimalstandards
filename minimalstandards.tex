@@ -43,17 +43,20 @@
 \fancyhead[OL]{\scshape \footnotesize \rightmark}
 \fancyhead[EL,OR]{\thepage}
 \fancyfoot{} % Aufraeumen
-\fancyfoot[EL]{\scshape \footnotesize KoMa-Handbuch}
+\fancyfoot[EL]{\scshape \footnotesize KoMa-Leitfaden}
 %\fancyfoot[EC,OC]{\scshape \footnotesize FH Regensburg}
 \fancyfoot[OR]{\scshape \footnotesize Minimalstandards}
 
 
 \definecolor{grau}{gray}{.6}
 
-% \excludeversion{kcmt}
-% \excludeversion{stilltodo}
-% \excludeversion{kcmt62}
-% \excludeversion{kcmt6XX}
+%wichtig: entweder exlude ODER include muss für jeden Befehl angegeben werden!
+\excludeversion{kcmt}
+\excludeversion{stilltodo}
+\excludeversion{kcmt62}
+\excludeversion{kcmt6XX}
+\includeversion{kcmt62}
+\includeversion{kcmt6XX}
 \includeversion{kcmt}
 \includeversion{stilltodo}
 
@@ -63,12 +66,10 @@
 \marginpar{\framebox{!}}%
 \begin{center}\begin{minipage}{.85\textwidth}\normalfont \mdseries \sffamily \small \color{grau} }{\end{minipage}\end{center}}
 
-\begin{kcmt62}%
 \newenvironment{komacmt62}{%
 \marginpar{\framebox{62}} %
 \begin{center}\begin{minipage}{.8\textwidth}\normalfont \mdseries \sffamily \small \color{grau} }{\end{minipage}\end{center} %
 }
-\end{kcmt62} %
 
 \newcounter{messgroesse}
 \newcommand{\messgroesse}{\addtocounter{messgroesse}{1}$x_{\Roman{messgroesse}}$}

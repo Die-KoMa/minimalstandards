@@ -3,7 +3,7 @@
 # Makefile f"ur den Arbeitskreis (KOMA) Minimalstandards in der Lehre.
 # $Id: Makefile,v 1.3 2008/03/23 19:04:52 brainbug Exp $
 ###############################################################################
-QUELLEN=minimalstandards.tex praeambel.tex stpo.tex formen.tex infrastruktur.tex service.tex\
+QUELLEN=minimalstandards.tex praeambel.tex veranstaltungsangebot.tex titelseiten.tex formen.tex infrastruktur.tex service.tex\
 	phasen.pdf dimensionen.pdf
 
 .SUFFIXES:	.obj .png
@@ -16,9 +16,7 @@ all:	minsanity
 
 dokumentiert: minsanity
 
-minsanity:	out/koma-minsanity.pdf
-
-out/koma-minsanity.pdf:	$(QUELLEN)
+minsanity:	$(QUELLEN)
 	@pdflatex -output-directory out -jobname koma-minsanity minimalstandards	&& \
 	pdflatex -output-directory out  -jobname koma-minsanity minimalstandards	> /dev/null 2>&1	&& printf "\n..Zweiter Durchlauf ok\n" && \
 	pdflatex -output-directory out  -jobname koma-minsanity minimalstandards	> /dev/null 2>&1	&& printf "\n..Dritter Durchlauf ok.\n\n"

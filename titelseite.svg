@@ -13,7 +13,7 @@
    height="744.09448"
    id="svg2383"
    sodipodi:version="0.32"
-   inkscape:version="0.47pre4 r22446"
+   inkscape:version="0.47 r22583"
    sodipodi:docname="titelseite.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0">
@@ -27,11 +27,11 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.03"
      inkscape:cx="527.94472"
-     inkscape:cy="333.60505"
+     inkscape:cy="294.7701"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1400"
-     inkscape:window-height="949"
+     inkscape:window-width="1680"
+     inkscape:window-height="951"
      inkscape:window-x="-4"
      inkscape:window-y="-3"
      showguides="true"
@@ -251,14 +251,14 @@
        y="164.51648" />
     <text
        xml:space="preserve"
-       style="font-size:74.83567809999999554px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="113.24356"
+       style="font-size:74.8356781px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="145.24356"
        y="228.81778"
        id="text3054"><tspan
          sodipodi:role="line"
          id="tspan3056"
-         x="113.24356"
-         y="228.81778">Handbuch</tspan></text>
+         x="145.24356"
+         y="228.81778">Leitfaden</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:35.4056015px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -294,15 +294,15 @@
        y="683.08533" />
     <text
        xml:space="preserve"
-       style="font-size:26.68630218999999926px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="157.95914"
+       style="font-size:26.68630219px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="175.95914"
        y="708.10675"
        id="text3074"><tspan
          sodipodi:role="line"
          id="tspan3076"
-         x="157.95914"
+         x="175.95914"
          y="708.10675"
-         style="fill:#ffffff">Wintersemester 2009/10</tspan></text>
+         style="fill:#ffffff">Sommersemester 2010</tspan></text>
     <g
        id="g3990"
        transform="matrix(0.2108666,0,0,0.2108666,21.370294,19.523677)">
