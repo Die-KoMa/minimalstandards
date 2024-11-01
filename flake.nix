@@ -1,5 +1,5 @@
 {
-  description = "Handbuch zur studentischen Mitwirkung in Berufungskommissionen";
+  description = "Minimalstandards der Lehre";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.11";
