@@ -8,22 +8,23 @@
 %%%
 \documentclass[10pt,twoside,a5paper,openright]{book}
 \usepackage[utf8]{inputenc}
-\usepackage{ngerman}
-\usepackage{url}
-\usepackage{fancyhdr}                % Leck're headers
-\usepackage{version}
-\usepackage{fullpagegraphic}
-\usepackage{latexsym}                % symbole!!
 \usepackage{amsmath}                 % Mehr mathematische Befehle...
 \usepackage{amssymb}                 % ... und Symbole
-\usepackage[final,pdftex,colorlinks,urlcolor=blue]{hyperref}		% setzt Links und Verweise im PDF-Dokument
+\usepackage[ngerman]{babel}
+\usepackage{url}
+\usepackage{fancyhdr}                % Leck're headers
+\usepackage{latexsym}                % symbole!!
+\usepackage[draft,pdftex,colorlinks,urlcolor=blue]{hyperref}        % setzt Links und Verweise im PDF-Dokument
 \usepackage{graphicx}               % zum Einf"ugen von eps-Bildern etc.
+\usepackage{fullpagegraphic}
 \usepackage{wasysym}
 \usepackage{color,colortbl,titlesec, array}
+\usepackage{csquotes}
+\usepackage{version}
 % Fot Watermark
-% \usepackage{draftwatermark}
-% \SetWatermarkScale{2}
-% \SetWatermarkText{\sf Nach Bremen}
+\usepackage{draftwatermark}
+\SetWatermarkScale{2}
+\SetWatermarkText{\textsf{Nach Magdeburg}}
 
 \setlength{\hoffset}{-.5in}
 \setlength{\voffset}{-1in}
@@ -47,6 +48,8 @@
 %\fancyfoot[EC,OC]{\scshape \footnotesize FH Regensburg}
 \fancyfoot[OR]{\scshape \footnotesize Minimalstandards}
 
+% reproducible documents
+\pdftrailerid{}
 
 \definecolor{grau}{gray}{.6}
 
