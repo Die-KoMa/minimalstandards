@@ -1,2 +1,8 @@
 /auto/
 /result
+*.aux
+*.log
+*.pdf
+*.ps
+*.out
+*.toc
