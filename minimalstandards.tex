@@ -1,0 +1,46 @@
+\documentclass[10pt,twoside,a5paper,openright]{scrbook}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[ngerman]{babel}
+\usepackage{url}
+\usepackage{scrlayer-scrpage}
+\usepackage{latexsym}
+\usepackage[draft,colorlinks,urlcolor=blue]{hyperref}
+\usepackage{graphicx}
+\usepackage{wasysym}
+\usepackage{color,colortbl,array}
+\usepackage{csquotes}
+\usepackage{draftwatermark}
+\SetWatermarkScale{0.65}
+\SetWatermarkText{\textsf{Nach Magdeburg}}
+
+\pagestyle{empty}
+\rehead{\scshape \footnotesize \leftmark}
+\lohead{\scshape \footnotesize \rightmark}
+\lehead{\thepage}
+\rohead{\thepage}
+\lefoot{\scshape \footnotesize KoMa-Leitfaden}
+\rofoot{\scshape \footnotesize Minimalstandards}
+
+\definecolor{grau}{gray}{.6}
+
+\renewcommand{\normalsize}{\small}
+
+\begin{document}
+  \input{titelseiten}
+  \input{impressum}
+
+  \newpage
+  \tableofcontents
+
+  \mainmatter
+
+  \newpage
+  \thispagestyle{empty}
+  \newpage
+  \thispagestyle{empty}
+  \vfill
+  \begin{center}
+    \url{www.die-koma.org}
+  \end{center}
+\end{document}
