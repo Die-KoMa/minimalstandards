@@ -9,15 +9,23 @@ Dem folgenden Modell liegt die Entwicklung der Studierende an der Hochschule zu 
 Die \glqq{}nullte\grqq{} Phase ist hierbei die Betreuung der Schüler*innen, dessen Information und adäquate Vorbereitung auf ein Hochschulstudium. Darauf folgt die Orientierungsphase an der Hochschule, die in etwa die ersten beiden Semester beinhaltet. In der nächsten Phase erfolgt die Vertiefung der erworbenen Grundfähigkeiten. Abgeschlossen wird das Studium in der Spezialisierungsphase. Die Betreuung der Studierenden endet aber auch hier nicht, die Alumniarbeit sowie Integration und die weitere Entwicklung der Absolventen*innen an der Hochschule werden auch gefördert.
 
 \begin{figure}[h!]
-  \centering
+  \centering\sffamily
   \begin{tikzpicture}
-    \path[save path=\boxedpath] (0, 0) -- (0, 2) -- (11, 2) -- (11, 0) -- (0, 0);
+    \path[save path=\boxedpath] (0, 0) -- (0, 2) -- (10.5, 2) -- (10.5, 0) -- (0, 0);
     \filldraw[yellow][use path=\boxedpath];
     \draw[blue][use path=\boxedpath];
-    \path[draw,blue] (3.5, 0) -- (3.5, 2);
-    \path[draw,blue] (7.5, 0) -- (7.5, 2);
-    \path[draw,blue] (0, -0.5) -- (11, -0.5);
-    \draw[blue] foreach \x in {0, 3.5, 7.5, 11} { (\x, -0.25) -- (\x, -0.75) };
+    % \path[draw,blue] (3.5, 0) -- (3.5, 2);
+    % \path[draw,blue] (7.5, 0) -- (7.5, 2);
+    \draw[domain=0:2, smooth, samples=100, thick, blue] plot ({0.15 * sin(3 * pi * \x r) + 3}, {2 - \x});
+    \draw[domain=0:2, smooth, samples=100, thick, blue] plot ({0.15 * sin(3 * pi * \x r) + 6.75}, {2 - \x});
+    \path[draw,blue] (0, -0.375) -- (10.5, -0.375);
+    \draw[blue] foreach \x in {0, 3, 6.75, 10.5} { (\x, -0.25) -- (\x, -0.5) };
+    \node at (1.5, 1) {\shortstack{1. Phase:\\Orientierung}};
+    \node at (4.9, 1) {\shortstack{2. Phase:\\Vertiefung}};
+    \node at (8.75, 1) {\shortstack{3. Phase:\\Spezialisierung}};
+    \node at (1.5, -0.65) {1./2. Semester};
+    \node at (4.9, -0.65) {Bachelor ab 3. Semester};
+    \node at (8.75, -0.65) {Master};
   \end{tikzpicture}
 \end{figure}
 
@@ -40,7 +48,7 @@ Diese Forderungen gehen auch von einer gewissen Mobilität, Autonomie und einem 
 
 Es ist nicht Aufgabe der Minimalstandards, einen Fächerkatalog bzw. curriculare Vorschläge darzubieten. Dies geschieht stattdessen im Rahmen der Hochschulen und ihrer Koordination untereinander.
 
-\section{Erste Studienphase}
+\section{Orientierungsphase}
 
 Die Studierenden kommen an die Hochschule und durchlaufen zunächst eine Orientierungsphase. Während dieser gewöhnen sie sich an das Lern- und Arbeitsniveau der Hochschule und finden sich dort fachlich ein.
 
@@ -52,7 +60,7 @@ In der ersten Phase des Studiums wird noch keine Vertiefung erwartet. Hier werde
 
 Die Inhalte der Grundlagenmodule Analysis und Lineare Algebra sind an allen Hochschulen vergleichbar um einen Hochschulwechsel zu erleichtern.
 
-\section{Zweite Studienphase}
+\section{Vertiefungsphase}
 
 Die Studierenden haben inzwischen ein fachliches Basisniveau erreicht und können erkennen, welche Vertiefungsmöglichkeiten an der eigenen Hochschule angeboten werden und wie auf diese hingeführt wird. Im Rahmen dieser Studienphase werden sie zur Auswahl der Schwerpunkte befähigt.
 
@@ -62,7 +70,7 @@ Ein Studienwechsel wird durch die Hochschule zumindest soweit unterstützt, dass
 
 In dieser Phase werden fachliche Breite und Tiefe gefördert sowie ein Studienabschluss erlangt.
 
-\section{Dritte Studienphase}
+\section{Spezialisierungsphase}
 
 Studierende der dritten Phase sind in der Lage, selbstständig wissenschaftlich zu arbeiten sowie autonom eine Spezialisierung auszuwählen und das eigene Lernen voranzutreiben. Nach der dritten Phase besitzen sie die Fähigkeit, mathematische Methoden und wissenschaftliche Erkenntnisse selbstständig anzuwenden.
 
