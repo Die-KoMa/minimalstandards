@@ -7,12 +7,16 @@
 \usepackage{latexsym}
 \usepackage[draft,colorlinks,urlcolor=blue]{hyperref}
 \usepackage{graphicx}
+\graphicspath{{.}{./chapters}}
 \usepackage{wasysym}
 \usepackage{color,colortbl,array}
 \usepackage{csquotes}
-\usepackage{draftwatermark}
-\SetWatermarkScale{0.65}
-\SetWatermarkText{\textsf{Nach Magdeburg}}
+%\usepackage{draftwatermark}
+%\SetWatermarkScale{0.65}
+%\SetWatermarkText{\textsf{Während Münster}}
+\usepackage{todonotes}
+%\usepackage{showframe}
+\usepackage{tikz}
 
 \pagestyle{empty}
 \rehead{\scshape \footnotesize \leftmark}
@@ -42,13 +46,18 @@
     \item Zur besseren Lesbarkeit wurde auf die klare Geschlechterunterscheidung verzichtet. Die verwendeten Formulierungen richten sich jedoch ausdrücklich an alle Geschlechter.
   \end{enumerate}
 
+  \clearpage
   \input{chapters/preamble}
 
   \mainmatter
 
-  \newpage
+  \chapter{Veranstaltungsangebot}
+  \input{chapters/veranstaltungsangebot}
+
+  \clearpage
   \thispagestyle{empty}
-  \newpage
+
+  \clearpage
   \thispagestyle{empty}
   \vfill
   \begin{center}

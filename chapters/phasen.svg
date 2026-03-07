@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="345.44476"
+   height="135.01463"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="minsanity_phasen.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="StopL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopL"
+       style="overflow:visible">
+      <path
+         id="path3361"
+         d="M 0,5.65 L 0,-5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lstart"
+       style="overflow:visible">
+      <path
+         id="path3209"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="matrix(1.1,0,0,1.1,1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         id="path3212"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.63"
+     inkscape:cx="247.06024"
+     inkscape:cy="71.770189"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1400"
+     inkscape:window-height="990"
+     inkscape:window-x="-5"
+     inkscape:window-y="-3">
+    <sodipodi:guide
+       orientation="0,1"
+       position="493.00699,592.30769"
+       id="guide2412" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="219.0184,58.895706"
+       id="guide3317" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="98.773006,6.1349693"
+       id="guide3335" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="441.10429,-20.245399"
+       id="guide3337" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="184.66258,-55.828221"
+       id="guide5452" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="347.23926,-41.717791"
+       id="guide5454" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="133.74233,-28.834356"
+       id="guide5456" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="194.47853,-53.98773"
+       id="guide5470" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-253.32003,-526.63868)">
+    <rect
+       style="opacity:1;fill:#fdcc0c;fill-opacity:0.81960784;stroke:#000080;stroke-width:2.98203516;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2519"
+       width="342.34924"
+       height="85.294037"
+       x="254.81105"
+       y="528.1297" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4683"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       transform="translate(-190.5947,137.09726)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998"><flowRegion
+         id="flowRegion4685"><rect
+           id="rect4687"
+           width="114.01869"
+           height="24.299065"
+           x="456.07477"
+           y="422.45563"
+           style="fill:#000000;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara4689">1. Phase</flowPara></flowRoot>    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 347.45806,527.81962 L 351.13904,537.63557 L 339.4826,542.54355 L 349.29855,547.45152 L 344.39057,551.1325 L 343.16358,556.65398 L 348.68505,562.78895 L 346.84456,567.69692 C 346.84456,567.69692 344.39057,568.31042 341.93658,569.53741 C 339.4826,570.76441 339.4826,579.35336 339.4826,579.35336 L 346.23106,582.42085 L 342.55008,587.94232 L 337.64211,591.0098 L 338.8691,598.98526 L 344.39057,601.43925 L 341.93658,605.73373 L 338.2556,609.41471 L 342.55008,612.4822"
+       id="path3313" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 506.96726,528.75212 L 498.9918,539.79507 L 511.87523,556.97298 L 500.83229,561.88096 L 505.74026,571.08341 L 513.10223,583.96685 L 502.67278,589.48832 L 506.96726,601.14476 L 503.28628,612.8012 L 503.28628,612.8012 L 503.28628,612.8012"
+       id="path3315" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3319"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       transform="translate(-63.962454,137.09726)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998"><flowRegion
+         id="flowRegion3321"><rect
+           id="rect3323"
+           width="114.01869"
+           height="24.299065"
+           x="456.07477"
+           y="422.45563"
+           style="fill:#000000;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara3325">2. Phase</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3327"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       transform="translate(71.226598,137.09726)"
+       inkscape:export-filename="/home/phoenixx/fsmi/koma/koma_63_paderborn/minsanity.png"
+       inkscape:export-xdpi="911.91998"
+       inkscape:export-ydpi="911.91998"><flowRegion
+         id="flowRegion3329"><rect
+           id="rect3331"
+           width="114.01869"
+           height="24.299065"
+           x="456.07477"
+           y="422.45563"
+           style="fill:#000000;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara3333">3. Phase</flowPara></flowRoot>    <g
+       id="g3341"
+       style="stroke:#000080;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <path
+         transform="translate(156.66051,240.47411)"
+         id="path3339"
+         d="M 98.773006,402.68292 L 441.10429,402.68292"
+         style="fill:none;fill-rule:evenodd;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 255.43351,635.18158 L 255.43351,651.746"
+       id="path5462" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 341.32309,635.18158 L 341.32309,651.746"
+       id="path5464" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 503.89977,635.18158 L 503.89977,651.746"
+       id="path5466" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 597.7648,635.18158 L 597.7648,651.746"
+       id="path5468" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="255.43352"
+       y="660.33496"
+       id="text5472"><tspan
+         sodipodi:role="line"
+         id="tspan5474"
+         x="255.43352"
+         y="660.33496"
+         style="font-size:10px">[1.,2.] Semester</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="383.46799"
+       y="660.33496"
+       id="text5476"><tspan
+         sodipodi:role="line"
+         id="tspan5478"
+         x="383.46799"
+         y="660.33496"
+         style="font-size:10px">[3.,6.] Semester</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="507.39435"
+       y="660.33496"
+       id="text5480"><tspan
+         sodipodi:role="line"
+         id="tspan5482"
+         x="507.39435"
+         y="660.33496"
+         style="font-size:10px">[7.,10.] Semester</tspan></text>
+  </g>
+</svg>
