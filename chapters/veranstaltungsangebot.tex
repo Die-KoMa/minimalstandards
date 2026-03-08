@@ -6,20 +6,18 @@ In allen ist eine gewisse fachliche Breite und die Möglichkeit zur Spezialisier
 
 Dem folgenden Modell liegt die Entwicklung der Studierende an der Hochschule zu Grunde. Es beginnt jedoch schon vor der Immatrikulation.
 
-Die \glqq{}nullte\grqq{} Phase ist hierbei die Betreuung der Schüler*innen, dessen Information und adäquate Vorbereitung auf ein Hochschulstudium. Darauf folgt die Orientierungsphase an der Hochschule, die in etwa die ersten beiden Semester beinhaltet. In der nächsten Phase erfolgt die Vertiefung der erworbenen Grundfähigkeiten. Abgeschlossen wird das Studium in der Spezialisierungsphase. Die Betreuung der Studierenden endet aber auch hier nicht, die Alumniarbeit sowie Integration und die weitere Entwicklung der Absolventen*innen an der Hochschule werden auch gefördert.
+Die \glqq{}nullte\grqq{} Phase ist hierbei die Betreuung der Schüler*innen, dessen Information und adäquate Vorbereitung auf ein Hochschulstudium. Darauf folgt die Orientierungsphase an der Hochschule, die in etwa die ersten beiden Semester beinhaltet. In der nächsten Phase erfolgt die Vertiefung der erworbenen Grundfähigkeiten. Abgeschlossen wird das Studium in der Spezialisierungsphase. Die Betreuung der Studierenden endet aber auch hier nicht, die Alumniarbeit sowie Integration und die weitere Entwicklung der Absolvent*innen an der Hochschule werden auch gefördert.
 
 \begin{figure}[h!]
   \centering\sffamily
   \begin{tikzpicture}
     \path[save path=\boxedpath] (0, 0) -- (0, 2) -- (10.5, 2) -- (10.5, 0) -- (0, 0);
-    \filldraw[yellow][use path=\boxedpath];
-    \draw[blue][use path=\boxedpath];
-    % \path[draw,blue] (3.5, 0) -- (3.5, 2);
-    % \path[draw,blue] (7.5, 0) -- (7.5, 2);
-    \draw[domain=0:2, smooth, samples=100, thick, blue] plot ({0.15 * sin(3 * pi * \x r) + 3}, {2 - \x});
-    \draw[domain=0:2, smooth, samples=100, thick, blue] plot ({0.15 * sin(3 * pi * \x r) + 6.75}, {2 - \x});
-    \path[draw,blue] (0, -0.375) -- (10.5, -0.375);
-    \draw[blue] foreach \x in {0, 3, 6.75, 10.5} { (\x, -0.25) -- (\x, -0.5) };
+    \filldraw[cgreen][use path=\boxedpath];
+    \draw[cgray, thick][use path=\boxedpath];
+    \draw[domain=0:2, smooth, samples=100, cgray] plot ({0.15 * sin(3 * pi * \x r) + 3}, {2 - \x});
+    \draw[domain=0:2, smooth, samples=100, cgray] plot ({0.15 * sin(3 * pi * \x r) + 6.75}, {2 - \x});
+    \path[draw, cgray, thick] (0, -0.375) -- (10.5, -0.375);
+    \draw[cgray, thick] foreach \x in {0, 3, 6.75, 10.5} { (\x, -0.25) -- (\x, -0.5) };
     \node at (1.5, 1) {\shortstack{1. Phase:\\Orientierung}};
     \node at (4.9, 1) {\shortstack{2. Phase:\\Vertiefung}};
     \node at (8.75, 1) {\shortstack{3. Phase:\\Spezialisierung}};
@@ -56,7 +54,7 @@ In der ersten Phase des Studiums werden die Studierenden an das Fachgebiet heran
 
 Hierbei wird auch auf Schwankungen bei den Vorkenntnissen der Studierenden eingegangen, d.h. nach Abschluss der ersten Studienphase sind eventuell vorhandene Mängel erkannt und ausgeglichen.
 
-In der ersten Phase des Studiums wird noch keine Vertiefung erwartet. Hier werden die Richtungen aufgezeigt, erste Schritte innerhalb dieser gegangen und insbesondere an das mathematische Denken und Arbeiten herangeführt. Die Studierenden werden hierbei mit den an der Hochschule behandelten Themengebieten vertraut gemacht (siehe Vorlesungen, Seite 12). \todo{Referenz aktualisieren}
+In der ersten Phase des Studiums wird noch keine Vertiefung erwartet. Hier werden die Richtungen aufgezeigt, erste Schritte innerhalb dieser gegangen und insbesondere an das mathematische Denken und Arbeiten herangeführt. Die Studierenden werden hierbei mit den an der Hochschule behandelten Themengebieten vertraut gemacht (siehe Vorlesungen, \cpageref{sec:vorlesung}).
 
 Die Inhalte der Grundlagenmodule Analysis und Lineare Algebra sind an allen Hochschulen vergleichbar um einen Hochschulwechsel zu erleichtern.
 
