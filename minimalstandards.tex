@@ -1,9 +1,14 @@
-\documentclass[10pt,twoside,a5paper,openright]{scrbook}
+\documentclass[
+  10pt,
+  twoside,
+  a5paper,
+  openright,
+]{scrbook}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage[ngerman]{babel}
 \usepackage{url}
-\usepackage{scrlayer-scrpage}
+\usepackage[automark]{scrlayer-scrpage}
 \usepackage{latexsym}
 \usepackage[draft,colorlinks,urlcolor=blue]{hyperref}
 \usepackage[ngerman]{cleveref}
@@ -22,7 +27,16 @@
 %\usepackage{showframe}
 \usepackage{tikz}
 
-\pagestyle{empty}
+\KOMAoption{chapterprefix}{true}
+\RedeclareSectionCommand[
+  afterskip=1cm,
+  prefixfont=\Large\sffamily\bfseries
+]{chapter}
+
+\setkomafont{pageheadfoot}{\normalfont\normalcolor}
+\renewcommand*{\chaptermarkformat}{Kapitel \thechapter\autodot\enskip}
+
+\clearpairofpagestyles
 \rehead{\scshape \footnotesize \leftmark}
 \lohead{\scshape \footnotesize \rightmark}
 \lehead{\thepage}
@@ -36,7 +50,7 @@
 
 \parindent=0pt
 \parskip=0.5\baselineskip
-\widowpenalty 10000
+\widowpenalty=500
 
 \begin{document}
   \input{titelseiten}
@@ -44,8 +58,9 @@
 
   \newpage
   \tableofcontents
+  \addtocontents{toc}{\protect\vspace*{-1.75cm}}
 
-  \textbf{Anmerkungen zum Sprachgebrauch}
+  \textbf{\sffamily Anmerkungen zum Sprachgebrauch}
   \begin{enumerate}
     \item Formulierungen im Präsens stellen Forderungen dar, die im Rahmen der Minimalstandards zu erfüllen sind.
     \item Zur besseren Lesbarkeit wurde auf die klare Geschlechterunterscheidung verzichtet. Die verwendeten Formulierungen richten sich jedoch ausdrücklich an alle Geschlechter.
