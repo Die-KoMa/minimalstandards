@@ -1,4 +1,4 @@
-name: "Build Berufungshandbuch"
+name: "Build Minimalstandards"
 on:
   pull_request:
     branches:
