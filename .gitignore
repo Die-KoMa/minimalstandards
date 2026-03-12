@@ -1,5 +1,7 @@
 /auto/
 /result
+\#*#
+*~
 *.aux
 *.log
 *.pdf
