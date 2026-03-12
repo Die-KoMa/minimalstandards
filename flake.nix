@@ -17,35 +17,40 @@
         SOURCE_DATE_EPOCH = toString self.lastModified;
       };
 
-      texlive = pkgs.texlive.combine {
-        inherit (pkgs.texlive)
-          babel
-          collection-fontsrecommended
-          collection-langgerman
-          colorprofiles
-          csquotes
-          draftwatermark
-          ec
-          hyperref
-          latex-bin
-          latexmk
-          mathtools
-          metafont
-          microtype
-          pdfmanagement-testphase
-          pdfx
-          scheme-basic
-          silence
-          textpos
-          titlesec
-          todonotes
-          version
-          wasysym
-          xkeyval
-          xmpincl
-          xstring
-          ;
-      };
+      texlive = pkgs.texlive.withPackages (
+        tl:
+        builtins.attrValues {
+          inherit (tl)
+            babel
+            cleveref
+            collection-fontsrecommended
+            collection-langgerman
+            colorprofiles
+            csquotes
+            draftwatermark
+            ec
+            hyperref
+            koma-script
+            latex-bin
+            latexmk
+            mathtools
+            metafont
+            microtype
+            pdfmanagement-testphase
+            pdfx
+            scheme-basic
+            silence
+            textpos
+            titlesec
+            todonotes
+            version
+            wasysym
+            xkeyval
+            xmpincl
+            xstring
+            ;
+        }
+      );
 
       mkDocument =
         name:
